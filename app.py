@@ -5,7 +5,7 @@ import asyncio
 
 # receber chave do bot
 def chave():
-    with open('cheve.json', 'r') as arquivo:
+    with open('chave.json', 'r') as arquivo:
         chave_bot = json.load(arquivo)
     return chave_bot['chave']
 
