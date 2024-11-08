@@ -55,7 +55,7 @@ async def on_message(message):
                         try: await message.delete()
                         except: pass
                         # menssagem enviada caso mandem palavrao
-                        await message.channel.send(f'# ⚠️MENSSAGEM OFENCIVA⚠️\n\nmenssagem ofenciva de: {message.author.mention} deletada*!*')
+                        await message.channel.send(f'**⚠️MENSSAGEM OFENCIVA⚠️**\n\nmenssagem ofenciva de: {message.author.mention} deletada*!*')
 
 # iniciar bot
 client.run(chave())
